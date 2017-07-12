@@ -5,3 +5,10 @@
 services:
   cache.backend.null:
     class: Drupal\Core\Cache\NullBackendFactory
+
+  
+parameters: 
+  dino.roar.use_key_value_cache: false
+  twig.config: 
+    debug: true
+  
